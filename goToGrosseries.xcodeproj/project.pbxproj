@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72711BE918A5FF4200A467EB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 72711BE818A5FF4200A467EB /* icon.png */; };
+		72711BEE18A605A300A467EB /* CATItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72711BED18A605A300A467EB /* CATItemDetailViewController.m */; };
 		7286DDCE18A4B5FD005E4897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286DDCD18A4B5FD005E4897 /* UIKit.framework */; };
 		7286DDD018A4B5FD005E4897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286DDCF18A4B5FD005E4897 /* Foundation.framework */; };
 		7286DDD218A4B5FD005E4897 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286DDD118A4B5FD005E4897 /* CoreGraphics.framework */; };
@@ -16,9 +18,15 @@
 		7286DDE018A4B5FD005E4897 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286DDDF18A4B5FD005E4897 /* Default.png */; };
 		7286DDE218A4B5FD005E4897 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286DDE118A4B5FD005E4897 /* Default@2x.png */; };
 		7286DDE418A4B5FD005E4897 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286DDE318A4B5FD005E4897 /* Default-568h@2x.png */; };
+		7286DDEB18A4B679005E4897 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7286DDEA18A4B679005E4897 /* Storyboard.storyboard */; };
+		7286DDEE18A4B929005E4897 /* CATGrosseriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286DDED18A4B929005E4897 /* CATGrosseriesViewController.m */; };
+		7286DDF118A4C1C5005E4897 /* CATAddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286DDF018A4C1C5005E4897 /* CATAddItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72711BE818A5FF4200A467EB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../icon.png; sourceTree = "<group>"; };
+		72711BEC18A605A300A467EB /* CATItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATItemDetailViewController.h; sourceTree = "<group>"; };
+		72711BED18A605A300A467EB /* CATItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATItemDetailViewController.m; sourceTree = "<group>"; };
 		7286DDCA18A4B5FD005E4897 /* goToGrosseries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goToGrosseries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7286DDCD18A4B5FD005E4897 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7286DDCF18A4B5FD005E4897 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +40,11 @@
 		7286DDDF18A4B5FD005E4897 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7286DDE118A4B5FD005E4897 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7286DDE318A4B5FD005E4897 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7286DDEA18A4B679005E4897 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7286DDEC18A4B929005E4897 /* CATGrosseriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATGrosseriesViewController.h; sourceTree = "<group>"; };
+		7286DDED18A4B929005E4897 /* CATGrosseriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATGrosseriesViewController.m; sourceTree = "<group>"; };
+		7286DDEF18A4C1C5005E4897 /* CATAddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATAddItemViewController.h; sourceTree = "<group>"; };
+		7286DDF018A4C1C5005E4897 /* CATAddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATAddItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +61,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72711BE718A5FF2900A467EB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				72711BE818A5FF4200A467EB /* icon.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		7286DDC118A4B5FD005E4897 = {
 			isa = PBXGroup;
 			children = (
+				7286DDEC18A4B929005E4897 /* CATGrosseriesViewController.h */,
+				7286DDED18A4B929005E4897 /* CATGrosseriesViewController.m */,
+				7286DDEA18A4B679005E4897 /* Storyboard.storyboard */,
+				72711BEC18A605A300A467EB /* CATItemDetailViewController.h */,
+				72711BED18A605A300A467EB /* CATItemDetailViewController.m */,
+				7286DDEF18A4C1C5005E4897 /* CATAddItemViewController.h */,
+				7286DDF018A4C1C5005E4897 /* CATAddItemViewController.m */,
 				7286DDD318A4B5FD005E4897 /* goToGrosseries */,
 				7286DDCC18A4B5FD005E4897 /* Frameworks */,
 				7286DDCB18A4B5FD005E4897 /* Products */,
@@ -78,6 +106,7 @@
 		7286DDD318A4B5FD005E4897 /* goToGrosseries */ = {
 			isa = PBXGroup;
 			children = (
+				72711BE718A5FF2900A467EB /* img */,
 				7286DDDC18A4B5FD005E4897 /* CATAppDelegate.h */,
 				7286DDDD18A4B5FD005E4897 /* CATAppDelegate.m */,
 				7286DDD418A4B5FD005E4897 /* Supporting Files */,
@@ -155,6 +184,8 @@
 				7286DDE018A4B5FD005E4897 /* Default.png in Resources */,
 				7286DDE218A4B5FD005E4897 /* Default@2x.png in Resources */,
 				7286DDE418A4B5FD005E4897 /* Default-568h@2x.png in Resources */,
+				7286DDEB18A4B679005E4897 /* Storyboard.storyboard in Resources */,
+				72711BE918A5FF4200A467EB /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +198,9 @@
 			files = (
 				7286DDDA18A4B5FD005E4897 /* main.m in Sources */,
 				7286DDDE18A4B5FD005E4897 /* CATAppDelegate.m in Sources */,
+				7286DDEE18A4B929005E4897 /* CATGrosseriesViewController.m in Sources */,
+				7286DDF118A4C1C5005E4897 /* CATAddItemViewController.m in Sources */,
+				72711BEE18A605A300A467EB /* CATItemDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +315,7 @@
 				7286DDE918A4B5FD005E4897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
